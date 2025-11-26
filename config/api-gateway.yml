@@ -41,6 +41,12 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
+
 server:
   port: 8080
 
